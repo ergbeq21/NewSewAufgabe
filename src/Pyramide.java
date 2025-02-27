@@ -4,9 +4,14 @@ public abstract class Pyramide {
         this.hoehe = hoehe;
     }
 
-    public abstract double volumen();
     public double getHoehe(){
         return hoehe;
     }
+    public abstract double volumen();
+
+
+    public abstract double calcoberflaechen();
+
+
 
 }

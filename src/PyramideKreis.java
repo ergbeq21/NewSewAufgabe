@@ -12,5 +12,10 @@ public class PyramideKreis extends Pyramide{
         return (((radius*radius*pie))*getHoehe())/3;
     }
 
+    @Override
+    public double calcoberflaechen(){
+        return (radius*pie)/getHoehe();
+    }
+
 
 }

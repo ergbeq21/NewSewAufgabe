@@ -7,6 +7,6 @@ public class PyramideDreieck extends Pyramide{
 
     @Override
     public double volumen() {
-        return (getHoehe()*basis)/2;
+        return (((getHoehe()*basis)/2)*getHoehe())/3;
     }
 }
